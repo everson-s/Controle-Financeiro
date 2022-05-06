@@ -39,7 +39,7 @@ namespace Controle_Financeiro
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(60, 234);
+            this.button1.Location = new System.Drawing.Point(60, 376);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(210, 25);
             this.button1.TabIndex = 0;
@@ -51,7 +51,7 @@ namespace Controle_Financeiro
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(60, 124);
+            this.label1.Location = new System.Drawing.Point(57, 252);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
@@ -61,7 +61,7 @@ namespace Controle_Financeiro
             // 
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(60, 140);
+            this.textBox1.Location = new System.Drawing.Point(57, 268);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(213, 13);
             this.textBox1.TabIndex = 2;
@@ -70,7 +70,7 @@ namespace Controle_Financeiro
             // 
             this.textBox2.BackColor = System.Drawing.Color.White;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(60, 190);
+            this.textBox2.Location = new System.Drawing.Point(57, 312);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(213, 13);
             this.textBox2.TabIndex = 4;
@@ -80,7 +80,7 @@ namespace Controle_Financeiro
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(60, 174);
+            this.label2.Location = new System.Drawing.Point(57, 296);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 3;
@@ -88,7 +88,7 @@ namespace Controle_Financeiro
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(60, 265);
+            this.button2.Location = new System.Drawing.Point(60, 407);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(210, 25);
             this.button2.TabIndex = 5;
@@ -100,7 +100,7 @@ namespace Controle_Financeiro
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(333, 366);
+            this.ClientSize = new System.Drawing.Size(354, 559);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
@@ -111,6 +111,7 @@ namespace Controle_Financeiro
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
